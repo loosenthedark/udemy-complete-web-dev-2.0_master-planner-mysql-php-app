@@ -1,6 +1,6 @@
 ![Udemy logo](https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg)
 
-**_Built as part of [Rob Percival's Complete Web Developer Course 2.0 on Udemy](https://www.udemy.com/course/the-complete-web-developer-course-2/) | [Template page](https://eco-cdn.co.uk/webdeveloper2.0/content/7-mysql/index.php)_**
+**Built as part of [Rob Percival's Complete Web Developer Course 2.0 on Udemy](https://www.udemy.com/course/the-complete-web-developer-course-2/) | [Template page](https://eco-cdn.co.uk/webdeveloper2.0/content/7-mysql/index.php)**
 
 * ['Cup of Coffee on Saucer'](https://www.pexels.com/photo/beverage-break-breakfast-brown-414630/) (used as main background image) and ['Person Holding White Ceramic Mug Beside Notebook'](https://www.pexels.com/photo/beverage-breakfast-brown-cafe-433205/) (used as secondary background image) photos by [Pixabay](https://www.pexels.com/@pixabay) from [Pexels](https://www.pexels.com), compressed using [TinyJPG](https://tinyjpg.com/), edited using [PicResize](https://picresize.com/) and used with permission
 
