@@ -4,7 +4,7 @@
 
 * ['Cup of Coffee on Saucer'](https://www.pexels.com/photo/beverage-break-breakfast-brown-414630/) (used as main background image) and ['Person Holding White Ceramic Mug Beside Notebook'](https://www.pexels.com/photo/beverage-breakfast-brown-cafe-433205/) (used as secondary background image) photos by [Pixabay](https://www.pexels.com/@pixabay) from [Pexels](https://www.pexels.com), compressed using [TinyJPG](https://tinyjpg.com/), edited using [PicResize](https://picresize.com/) and used with permission
 
-* [JavaScript workaround for PHP header("Location...") redirect bug](https://stackoverflow.com/questions/12525251/header-location-not-working-in-my-php-code)
+* [(Unused) JavaScript workaround for PHP header("Location...") redirect bug](https://stackoverflow.com/questions/12525251/header-location-not-working-in-my-php-code)
 
 * [I discovered that the slim build of jQuery has had AJAX functionality - amongst other things - removed thanks to this helpful Stack Overflow thread](https://stackoverflow.com/questions/18271251/typeerror-ajax-is-not-a-function)
 
