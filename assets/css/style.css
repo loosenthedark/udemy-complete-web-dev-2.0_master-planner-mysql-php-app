@@ -1,0 +1,130 @@
+body:not(.body-logged-in):before {
+  content: "";
+  background: url(../images/coffee-laptop-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  animation: bg-zoom 3s forwards;
+}
+
+body:not(.body-logged-in) {
+  position: relative;
+  overflow: hidden;
+}
+
+.body-logged-in {
+  background: url(../images/coffee-notebook-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .6);
+  min-height: 100vh;
+}
+
+nav {
+  height: 3.5rem;
+}
+
+.container-fluid {
+  background: rgba(0, 0, 0, .6);
+  min-height: 100vh;
+}
+
+.body-logged-in>.container-fluid {
+  min-height: calc(100vh - 3.5rem);
+}
+
+.master-planner-heading {
+  color: gold;
+  margin-top: 1.5vh;
+  font-weight: 500;
+  font-size: 2.7rem;
+}
+
+.text-success,
+.text-primary {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#form-login-wrapper {
+  display: none;
+}
+
+.form-group,
+.alert {
+  max-width: 23rem;
+}
+
+.alert,
+.form-control {
+  border-radius: .1rem;
+}
+
+.alert {
+  margin-top: -1rem;
+}
+
+.form-control {
+  border: none;
+  height: calc(1.5em + .75rem + 4px);
+}
+
+.btn {
+  border-radius: .25rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
+
+.btn:not(#btn-log-out) {
+  width: 4.956875rem;
+}
+
+.planner {
+  width: 100%;
+  opacity: 0;
+}
+
+textarea.form-control {
+  min-height: calc(100vh - 5.5rem);
+}
+
+@keyframes bg-zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.07);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .master-planner-heading {
+    margin-top: 17vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .master-planner-heading {
+    margin-top: 5vh;
+  }
+
+  .master-planner-heading+p {
+    max-width: 43.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .master-planner-heading {
+    margin-top: 7vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .master-planner-heading {
+    margin-top: 15vh;
+  }
+}
