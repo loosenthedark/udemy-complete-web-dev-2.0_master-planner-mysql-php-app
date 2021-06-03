@@ -29,8 +29,7 @@ include ("head.php");
             <a id="btn-log-out" class="px-3 py-2 btn btn-primary" href="index.php?logout=1">Log Out</a>
         </nav>
         <div class="container-fluid pt-3">
-            <textarea class="form-control planner" placeholder="Get started by typing your master plans here...&#10;&#10;They'll save automatically, and will be securely stored for when you next log in!"><?php echo $plans; ?>
-            </textarea>
+            <textarea class="form-control planner" placeholder="Get started by typing your master plans here...&#10;&#10;They'll save automatically, and will be securely stored for when you next log in!"><?php echo $plans; ?></textarea>
         </div>
 
 <?php include("footer.php"); ?>
